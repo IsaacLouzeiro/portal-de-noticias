@@ -24,6 +24,7 @@ html, body, .app-root {
 
 .highlights {
     padding: 1em;
+    display: none;
 }
 
 a {
