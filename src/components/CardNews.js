@@ -101,10 +101,10 @@ class CardNews extends HTMLElement {
                 }
                 
                 .card-left p {
-                    font-size: 1em;
-                    display: block;
+                    font-size: .9em;
+                    display: inline-block;
                     white-space: nowrap;
-                    max-width: 18em;
+                    max-width: 13rem;
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
