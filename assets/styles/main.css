@@ -12,7 +12,7 @@ html, body, .app-root {
 
 .app-root {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
     max-width: 1336px;
     margin: auto;
     padding: .4em;
@@ -24,4 +24,15 @@ html, body, .app-root {
 
 .highlights {
     padding: 1em;
+}
+
+
+@media screen and (min-width: 903px) {
+    .app-root {
+         grid-template-columns: 2fr 1fr;
+    }
+
+    .highlights {
+         display: block;
+    }
 }
